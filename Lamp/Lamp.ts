@@ -1,4 +1,6 @@
 class Lamp {
+  private hasBubble: boolean;
+
   private isOn: boolean;
 
   public turnOn(): void {
